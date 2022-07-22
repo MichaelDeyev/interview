@@ -555,6 +555,7 @@ REST - representative state transfer
 ПРОЧИТАТЬ
 - https://neowiki.neoflex.ru/pages/viewpage.action?pageId=97543479 МСА
 - https://neowiki.neoflex.ru/pages/viewpage.action?pageId=80381763 Паттерны МСА
+- https://neostudy.neoflex.ru/course/view.php?id=702 лекция про переход к МСА + TransactionalOutBox
 
 ### 1. CAP
 В любой реализации распределённых вычислений возможно обеспечить не более двух из трёх следующих свойств:
