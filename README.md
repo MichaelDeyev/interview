@@ -551,6 +551,11 @@ REST - representative state transfer
 
 
 ## Микросервисная архитектура
+
+ПРОЧИТАТЬ
+https://neowiki.neoflex.ru/pages/viewpage.action?pageId=97543479 МСА
+https://neowiki.neoflex.ru/pages/viewpage.action?pageId=80381763 Паттерны МСА
+
 ### 1. CAP
 В любой реализации распределённых вычислений возможно обеспечить не более двух из трёх следующих свойств:
 - согласованность данных (англ. consistency) — во всех вычислительных узлах в один момент времени данные не противоречат друг другу;
