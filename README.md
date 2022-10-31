@@ -587,11 +587,8 @@ REST - representative state transfer
 
 
 # Микросервисная архитектура
-
-ПРОЧИТАТЬ
-- https://neowiki.neoflex.ru/pages/viewpage.action?pageId=97543479 МСА
-- https://neowiki.neoflex.ru/pages/viewpage.action?pageId=80381763 Паттерны МСА
-- https://neostudy.neoflex.ru/course/view.php?id=702 лекция про переход к МСА + TransactionalOutBox
+### Почитать
+[MSA](https://neowiki.neoflex.ru/pages/viewpage.action?pageId=102988605)
 
 ### 1. CAP
 В любой реализации распределённых вычислений возможно обеспечить не более двух из трёх следующих свойств:
@@ -605,7 +602,11 @@ REST - representative state transfer
 _Прим.:_ Предпочтительнее - горизонтальное, из-за невозможности бесконечного вертикального наращивания,
 а также из-за отказоустойчивости (если один из нескольких компьютеров выйдет из строя, это скажется только на сервисах, запущенных на данном компьютере).
 ### 3. Паттерны МСА ???
-#### Transactional outbox
+ПРОЧИТАТЬ
+- [Паттерны МСА](https://neowiki.neoflex.ru/pages/viewpage.action?pageId=80381763)
+- [лекция про переход к МСА TransactionalOutBox](https://neostudy.neoflex.ru/course/view.php?id=702)
+#### Transactional outbox 
+[Transactional Outbox](https://neowiki.neoflex.ru/pages/viewpage.action?pageId=102988605)
 
 # Брокеры сообщений
 ### Отличие подхода "очереди" (RabbitMQ) и "топики" (Kafka): 
