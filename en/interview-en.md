@@ -1,6 +1,6 @@
 # Opening questions
 ### Introduce yourself
-My name is Mike and I am a Java developer. I started learning Java at university and have been working as a Java developer for over two years. I started working for a large retail company written on the SAP E-commerce platform, but I have been working in fintech for a year and a half. I managed to work on the "Security" and "Savings and Deposits" projects of the largest bank.
+My name is Mike, and I am a Java developer. I started learning Java at university and have been working as a Java developer for over two years. I started working for a large retail company written on the SAP E-commerce platform, but I have been working in fintech for a year and a half. I managed to work on the "Security" and "Savings and Deposits" projects of the largest bank.
 My main PL is Java, and I'm really Love it. I am also familiar with SpringBoot framework and with Hibernate ORM.
 I always try to improve my skills and learning new technologies. For example, now I'm learning frontend to addition for main skills
 # JAVA CORE
