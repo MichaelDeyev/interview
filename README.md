@@ -604,7 +604,7 @@ public interface UserRepository extends CrudRepository<User, Long> {
 Корректно реализованные методы GET, HEAD, PUT и DELETE идемпотентны, но не метод POST.
 Также все безопасные методы (GET, HEAD или OPTIONS) являются идемпотентными
 
-### 3. Cookies
+### 3. Cookies ???
 ### 4. REST
 REST - representative state transfer
 1) _client-server_. Отделение потребности интерфейса клиента от потребностей сервера, хранящего данные, повышает переносимость кода клиентского интерфейса на другие платформы, а упрощение серверной части улучшает масштабируемость.

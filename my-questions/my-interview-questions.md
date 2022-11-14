@@ -58,34 +58,86 @@ ___
 ### Что такое Бин?
 ### Какие знаешь контейнеры бинов? 
 ### Какие есть способы объявить бин?
+
+### Способы внедрить зависимость? В чем отличие?
+1. на поле через @Autowired
+2. через конструктор
+3. через сеттер (над методом)
+- Через конструктор мы можем поменять DI фреймворк и функционал останется
+- через @Autowired будет задействована рефлексия
+- Однако если через ломбоковский конструктор (@RequiredArgs) делать внедрение, то если бина нет в контексте мы этого просто не заметим.
+  Это является преимуществом использования @Autowired
+
+### Кто вызывает методы контроллера ?
+Dispatcher Servlet
 ### Отличие аннотаций `@Component` `@Controller` `@RestController` `@Service` `@Repository` ?
 @Controller (@RestController) говорит спрингу исследовать данный класс на наличие аннотации @RequestMapping. Другие стереотипные аннотации такого не делают
 #### А семантическая разница?
 
+
+## @Transactional
+
 ### `@Transactional` где нужно использовать?
 Не на все методы. Например, на методы которые просто читают из базы нет необходимости вешать @Transactional
 
-### Способы внедрить зависимость? В чем отличие?
-1. на поле через @Autowired 
-2. через конструктор 
-3. через сеттер (над методом)
-- Через конструктор мы можем поменять DI фреймворк и функционал останется
-- через @Autowired будет задействована рефлексия
-- Однако если через ломбоковский конструктор (@RequiredArgs) делать внедрение, то если бина нет в контексте мы этого просто не заметим. 
-Это является преимуществом использования @Autowired
+### Как можно решить эту проблему? Варианты решения: селф-инжект, TransactionalManager, Facade
+```java
+@Service
+@RequiredArgsConstructor
+public class TestService{
 
-### Кто вызывает методы контроллера ?
-Dispatcher Servlet
+    private final TestRepository repository;
+    private final TestEventPublisher eventPublisher;
+
+    @Transactional
+    public void test1(){
+        repository.save(new Test());
+        test2();
+    }
+
+    @Transactional(propagation = Propagation.REQUIRES_NEW) // для начала без
+    public void test2(){
+        eventPublisher.sendEvent("Test saved");
+    }
+}
+```
+## Паттерны МСА
+### Transactional outbox. Дан код. Как обеспечить согласованность данных между операциями?
+
+```java
+@Service
+@RequiredArgsConstructor
+public class TestFacade {
+ 
+    private final TestService service;
+ 
+    public void create(Order order) {
+        service.test1();
+        //
+        service.test2();
+    }
+}
+```
+
+### Паттерн Circuit breaker
+Ситуация: Один МС делает регулярные запросы во второй МС, а тот в свою очередь выполняя долгие расчёты отвечает первому. В один момент второй МС падает и начинает тем самым блокировать работу первого, ведь он продолжает слать запросы ко второму и ждать ответ. Как решить данную проблему?
+Ответ: Hystrix
 ___
 ## Hibernate
 ### Как можно улучшить код:
-`for(int i=0, i<objectList.size(), i++){
+```java
+for(int i=0, i<objectList.size(), i++){
 repository.save(objectList.get(i))
-}`
+}
+```
 
-`objectList.forEach(repository::save)` // хибернейт сам может циклический INSERT мержить в 1 запрос (batchSize)
+```java
+objectList.forEach(repository::save) // хибернейт сам может циклический INSERT мержить в 1 запрос (batchSize)
+```
 
-`repository.saveAll(objectList)`
+```java
+repository.saveAll(objectList)
+```
 
 ### Объясни N+1
 ### Уровни изолированности БД
@@ -119,8 +171,6 @@ ___
 ### Ты ревьвишь ПР и видишь что коллега теструет логику валидатора создавая на каждый кейс новый тестовый метод. Твои предложения?
 ___
 ## Рефакторинг
-### <Код с проблемой транзакшионала>. Как можно решить эту проблему?
-(рассмотреть вариант с AspectJ)
 
 ### <Код который показывает нарушение Single Responsability, на примере со стейт машиной>
 ```java
