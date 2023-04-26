@@ -4,12 +4,6 @@ My name is Mike, and I am a Java developer. I started learning Java at universit
 My main PL is Java, and I'm really Love it. I am also familiar with SpringBoot framework and with Hibernate ORM.
 I always try to improve my skills and learning new technologies. For example, now I'm learning frontend to addition for main skills
 
-Greetings Gentlemen! Today we have the interview with Boitumello.
-I hope that our meeting will be comfortable for you, Boitumello.
-
-So, can tell us about your experience in java?
-
-Which themes are the most difficult for you?
 
 # JAVA CORE
 ### What is an interface?
