@@ -83,7 +83,7 @@ Dispatcher Servlet
 Не на все методы. Например, на методы которые просто читают из базы нет необходимости вешать @Transactional. 
 Однако можно readonly = true поставить у транзакции которая читает что-то из сложной структуры таблиц
 
-### Как можно решить эту проблему? Варианты решения: селф-инжект, TransactionalManager, Facade
+### Как можно решить эту проблему? Варианты решения: self-inject, TransactionalManager, Facade
 ```java
 @Service
 @RequiredArgsConstructor
