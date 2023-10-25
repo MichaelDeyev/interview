@@ -1,5 +1,25 @@
 # JAVA CORE
 
+[//]: # (TODO на добавление.уровень SENIOR)
+- ClassLoader 
+- Lock (Optimistic/Pisimistic) vs Isolation level 
+- Patterns 
+- CoroutineScope async{} await 
+- Monitor/mutex/semaphore
+- !!! JMM (large objects in memory) Java 22 Высокопроизводительная Java курс
+- GCs
+- JMM (happens before, sequental consistency)
+- !!!! Профилирование, JMeter
+- Java 21 virtual threads
+- !!!! Проектирование микросервисов на Java Крис Ричардсон !!!!!!!!!
+- Паттерны МКС (Saga (Temporal framework), CircuitBraker, SharedCache) (курс микросервисная архитектура Luxoft, сделан по книге Ричардсона)
+- kafka vs rabbit
+- reactive system manifesto (реактивное программирование для тех кто привык разрабатывать....)
+- reactive vs async
+- Курс Асинхронное и реактивное программирование Luxoft
+- Уровни зрелости REST API
+- Java off-heap memory
+
 [//]: # (TODO на рефакторинг)
 - Интерфейс VS Абстрактный классМожно ли перегрузить static метод? 
 - А переопределить? 
