@@ -309,7 +309,7 @@ SecurityFilterChain api(HttpSecurity http) throws Exception {
 }
 ```
 
-- Сервис как **Resource Server** проверяет JWT от провайдера (Keycloak и т. п.) по публичному ключу (JWKS). Подробнее про JWT и OAuth2 — [web.md](web.md#аутентификация-jwt-oauth2).
+- Сервис как **Resource Server** проверяет JWT от провайдера (Keycloak и т. п.) по публичному ключу (JWKS). Подробнее про JWT и OAuth2 — [web.md](web.md#8-аутентификация-jwt-oauth2).
 - Пароли — только хэш с солью (`BCryptPasswordEncoder`, Argon2), никогда не в открытом виде.
 - CSRF отключают для stateless API с токенами в заголовке; для cookie-сессий — оставляют.
 
