@@ -528,7 +528,7 @@ update accounts set balance = balance - 100 where id = 1 and balance >= 100;
 update accounts set balance = balance + 100 where id = 2;
 commit;
 ```
-Ещё лучше — ограничение в схеме: `check (balance >= 0)`, тогда БД сама не даст уйти в минус. Подробнее про блокировки — [databases.md](databases.md#блокировки).
+Ещё лучше — ограничение в схеме: `check (balance >= 0)`, тогда БД сама не даст уйти в минус. Подробнее про блокировки — [databases.md](databases.md#7-блокировки).
 </details>
 
 ### Задача 12. Дни подряд (gaps and islands) — задача «со звёздочкой»
@@ -652,7 +652,7 @@ create table accounts (
 - **Почему `NOT IN` опасен?** Один `NULL` в подзапросе — и результат пустой.
 - **Чем `rank` отличается от `dense_rank`?** `rank` после одинаковых делает пропуск номера, `dense_rank` — нет.
 - **Оконная функция vs `GROUP BY`?** Окно не схлопывает строки.
-- **Как писать запросы из Java безопасно?** Только параметры (`PreparedStatement`, `:param` в JPQL/Spring Data), никакой склейки строк — см. [SQL-инъекции](databases.md#sql-инъекции).
+- **Как писать запросы из Java безопасно?** Только параметры (`PreparedStatement`, `:param` в JPQL/Spring Data), никакой склейки строк — см. [SQL-инъекции](databases.md#13-sql-инъекции).
 
 ## Где тренироваться
 
