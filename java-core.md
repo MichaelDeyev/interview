@@ -72,7 +72,7 @@ a.equals(c);       // true — строки сравнивать через equa
 
 ## 5. Исключения
 
-![](img/exception-hierarchy.png)
+![](img/exception-hierarchy.svg)
 
 - **`Throwable`** → **`Error`** (сбои JVM: `OutOfMemoryError`, `StackOverflowError` — приложение обычно не может их исправить) и **`Exception`**.
 - **Проверяемые (checked)** — наследники `Exception`, кроме `RuntimeException`. Компилятор требует обработать или объявить в `throws`. Пример: `IOException`, `SQLException`.

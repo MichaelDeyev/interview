@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="560" viewBox="0 0 820 560">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/></marker></defs>
+<rect width="100%" height="100%" rx="10" fill="#0d1117"/>
+<rect x="20" y="20" width="600" height="520" rx="24" fill="#161b22" stroke="#8b949e" stroke-width="1.6"/>
+<path d="M 20 160 L 620 160" fill="none" stroke="#8b949e" stroke-width="1.6"/>
+<path d="M 20 450 L 620 450" fill="none" stroke="#8b949e" stroke-width="1.6"/>
+<text x="720" y="62.7" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Недостижимые</text>
+<text x="720" y="80.9" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">объекты = мусор</text>
+<text x="720" y="99.1" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">(даже если ссылаются</text>
+<text x="720" y="117.3" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">друг на друга)</text>
+<text x="720" y="290.9" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Достижимые</text>
+<text x="720" y="309.1" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">объекты</text>
+<text x="720" y="495.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="central">GC Roots</text>
+<circle cx="110" cy="70" r="15" fill="#21262d" stroke="#8b949e" stroke-width="1.8"/>
+<circle cx="210" cy="70" r="15" fill="#21262d" stroke="#8b949e" stroke-width="1.8"/>
+<circle cx="360" cy="60" r="15" fill="#21262d" stroke="#8b949e" stroke-width="1.8"/>
+<circle cx="330" cy="120" r="15" fill="#21262d" stroke="#8b949e" stroke-width="1.8"/>
+<circle cx="400" cy="120" r="15" fill="#21262d" stroke="#8b949e" stroke-width="1.8"/>
+<path d="M 122 61 Q 160 40 196 63" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 198 79 Q 160 100 124 77" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="160" y="125.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" dominant-baseline="central">цикл</text>
+<path d="M 353.2917960675006 73.41640786499875 L 337.6026311234993 104.79473775300143" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 368.3205029433784 72.48075441506765 L 390.5700966641711 105.85514499625666" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="45.0" y="478.0" width="130" height="34" rx="4" fill="#0f3b47" stroke="#39c5cf" stroke-width="1.6"/>
+<text x="110" y="495.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">стек потока</text>
+<rect x="255.0" y="478.0" width="130" height="34" rx="4" fill="#0f3b47" stroke="#39c5cf" stroke-width="1.6"/>
+<text x="320" y="495.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">static-поле</text>
+<rect x="455.0" y="478.0" width="130" height="34" rx="4" fill="#0f3b47" stroke="#39c5cf" stroke-width="1.6"/>
+<text x="520" y="495.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">стек потока</text>
+<circle cx="110" cy="400" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="70" cy="330" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="150" cy="330" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="50" cy="255" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="100" cy="255" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="160" cy="255" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="200" cy="200" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<path d="M 110.0 463.0 L 110.0 417.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 102.55791592464749 386.9763528681331 L 78.43436195206618 344.7601334161158" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 117.44208407535251 386.9763528681331 L 141.56563804793382 344.7601334161158" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 66.13506024159501 315.5064759059813 L 54.38026505952565 271.4259939732212" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 75.57086014531156 316.0728496367211 L 93.68635850198024 270.78410374504944" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 151.98245580136526 315.1315814897605 L 157.7532167584527 271.8508743116048" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 168.82257546512568 242.86895873545217 L 190.00108113952422 213.74851343315422" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<circle cx="320" cy="400" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="520" cy="400" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="280" cy="320" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="380" cy="320" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="470" cy="320" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="560" cy="320" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="330" cy="240" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="430" cy="240" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="520" cy="240" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="380" cy="190" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<circle cx="480" cy="185" r="15" fill="#132f55" stroke="#58a6ff" stroke-width="1.8"/>
+<path d="M 320.0 463.0 L 320.0 417.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 520.0 463.0 L 520.0 417.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 313.2917960675006 386.58359213500125 L 287.6026311234993 335.2052622469986" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 329.0 388.0 L 369.8 333.6" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 512.0500158999523 387.2800254399237 L 479.0099819800541 334.4159711680865" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 526.7082039324994 386.58359213500125 L 552.3973688765008 335.2052622469986" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 372.0500158999523 307.2800254399237 L 339.0099819800541 254.4159711680865" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 387.9499841000477 307.2800254399237 L 420.9900180199459 254.4159711680865" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 463.2917960675006 306.58359213500125 L 437.6026311234993 255.20526224699856" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 553.2917960675006 306.58359213500125 L 527.6026311234992 255.20526224699856" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 340.6066017177982 229.3933982822018 L 367.9791847198287 202.02081528017132" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 419.3933982822018 229.3933982822018 L 392.0208152801713 202.02081528017132" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 511.1774245348743 227.86895873545217 L 489.9989188604758 198.74851343315422" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 440.0900919099447 228.90089889906085 L 468.5645625020627 197.57898124773104" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+</svg>

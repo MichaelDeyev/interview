@@ -4,7 +4,7 @@
 
 ## 1. Иерархия
 
-![](img/collections-hierarchy.png)
+![](img/collections-hierarchy.svg)
 
 - `Iterable` → `Collection` → `List`, `Set`, `Queue`/`Deque`.
 - **`Map` не наследует `Collection`:** коллекция — набор отдельных элементов (`add(E)`), а map — набор пар ключ–значение (`put(K, V)`). Методы `Collection` для пар не подходят. Зато map даёт представления-коллекции: `keySet()`, `values()`, `entrySet()`.
@@ -26,7 +26,7 @@
 | `TreeSet` / `TreeMap` | O(log n) | отсортированный |
 | `PriorityQueue` | `offer`/`poll` O(log n), `peek` O(1) | по приоритету (куча) |
 
-![](img/algoryth-difficulty1.jpg)
+![](img/complexity-table.svg)
 
 ## 3. `ArrayList` vs `LinkedList`
 

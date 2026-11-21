@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="560" viewBox="0 0 1160 560">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/></marker></defs>
+<rect width="100%" height="100%" rx="10" fill="#0d1117"/>
+<path d="M 284.0 90 L 316.0 90" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 574.0 90 L 606.0 90" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 864.0 90 L 896.0 90" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 1025.0 152.0 L 1025.0 180.0 L 155.0 180.0 L 155.0 206.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 284.0 270 L 316.0 270" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 574.0 270 L 606.0 270" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 864.0 270 L 896.0 270" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 1025.0 332.0 L 1025.0 360.0 L 155.0 360.0 L 155.0 386.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="30.0" y="30.0" width="250" height="120" rx="10" fill="#132f55" stroke="#58a6ff" stroke-width="1.6"/>
+<text x="155.0" y="70.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">1. Чтение BeanDefinition</text>
+<text x="155.0" y="90.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">BeanFactoryPostProcessor</text>
+<text x="155.0" y="109.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">меняет определения</text>
+<rect x="320.0" y="30.0" width="250" height="120" rx="10" fill="#132f55" stroke="#58a6ff" stroke-width="1.6"/>
+<text x="445.0" y="70.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">2. Создание объекта</text>
+<text x="445.0" y="90.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">конструктор +</text>
+<text x="445.0" y="109.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">его зависимости</text>
+<rect x="610.0" y="30.0" width="250" height="120" rx="10" fill="#132f55" stroke="#58a6ff" stroke-width="1.6"/>
+<text x="735.0" y="70.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">3. Внедрение</text>
+<text x="735.0" y="90.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">зависимостей</text>
+<text x="735.0" y="109.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">в поля и сеттеры</text>
+<rect x="900.0" y="30.0" width="250" height="120" rx="10" fill="#132f55" stroke="#58a6ff" stroke-width="1.6"/>
+<text x="1025.0" y="70.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">4. *Aware-методы</text>
+<text x="1025.0" y="90.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">BeanNameAware,</text>
+<text x="1025.0" y="109.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">ApplicationContextAware</text>
+<rect x="30.0" y="210.0" width="250" height="120" rx="10" fill="#35205a" stroke="#a371f7" stroke-width="1.6"/>
+<text x="155.0" y="250.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">5. BeanPostProcessor</text>
+<text x="155.0" y="270.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">postProcessBefore-</text>
+<text x="155.0" y="289.5" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">Initialization</text>
+<rect x="320.0" y="210.0" width="250" height="120" rx="10" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="445.0" y="240.8" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">6. Инициализация</text>
+<text x="445.0" y="260.2" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">@PostConstruct →</text>
+<text x="445.0" y="279.8" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">afterPropertiesSet() →</text>
+<text x="445.0" y="299.2" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">init-method</text>
+<rect x="610.0" y="210.0" width="250" height="120" rx="10" fill="#35205a" stroke="#a371f7" stroke-width="1.6"/>
+<text x="735.0" y="240.8" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">7. BeanPostProcessor</text>
+<text x="735.0" y="260.2" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">postProcessAfter-</text>
+<text x="735.0" y="279.8" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">Initialization</text>
+<text x="735.0" y="299.2" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">здесь создаются прокси</text>
+<rect x="900.0" y="210.0" width="250" height="120" rx="10" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="1025.0" y="260.2" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">8. Бин готов</text>
+<text x="1025.0" y="279.8" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">к использованию</text>
+<rect x="30.0" y="390.0" width="250" height="120" rx="10" fill="#5c1a1b" stroke="#f85149" stroke-width="1.6"/>
+<text x="155.0" y="420.8" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">9. Закрытие контекста</text>
+<text x="155.0" y="440.2" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">@PreDestroy → destroy() →</text>
+<text x="155.0" y="459.8" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">destroy-method</text>
+<text x="155.0" y="479.2" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" dominant-baseline="central">(для prototype не вызывается)</text>
+<rect x="360.0" y="440.0" width="36" height="20" rx="4" fill="#132f55" stroke="#58a6ff" stroke-width="1.6"/>
+<text x="408" y="450.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">создание и внедрение зависимостей</text>
+<rect x="360.0" y="470.0" width="36" height="20" rx="4" fill="#35205a" stroke="#a371f7" stroke-width="1.6"/>
+<text x="408" y="480.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">BeanPostProcessor — обработка каждого бина</text>
+<rect x="360.0" y="500.0" width="36" height="20" rx="4" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="408" y="510.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">init-методы</text>
+<rect x="760.0" y="440.0" width="36" height="20" rx="4" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="808" y="450.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">готов к работе</text>
+<rect x="760.0" y="470.0" width="36" height="20" rx="4" fill="#5c1a1b" stroke="#f85149" stroke-width="1.6"/>
+<text x="808" y="480.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">уничтожение</text>
+</svg>

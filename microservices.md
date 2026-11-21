@@ -58,7 +58,7 @@
 
 ## Transactional outbox
 
-![](img/transactional-outbox.png)
+![](img/transactional-outbox.svg)
 
 **Проблема (dual write):** нужно сохранить заказ в БД **и** отправить событие в Kafka.
 

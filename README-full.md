@@ -99,7 +99,7 @@ a.equals(c);       // true — строки сравнивать через equa
 
 ## 5. Исключения
 
-![](img/exception-hierarchy.png)
+![](img/exception-hierarchy.svg)
 
 - **`Throwable`** → **`Error`** (сбои JVM: `OutOfMemoryError`, `StackOverflowError` — приложение обычно не может их исправить) и **`Exception`**.
 - **Проверяемые (checked)** — наследники `Exception`, кроме `RuntimeException`. Компилятор требует обработать или объявить в `throws`. Пример: `IOException`, `SQLException`.
@@ -288,7 +288,7 @@ public record Money(BigDecimal amount, String currency) {
 
 ## 1. Иерархия
 
-![](img/collections-hierarchy.png)
+![](img/collections-hierarchy.svg)
 
 - `Iterable` → `Collection` → `List`, `Set`, `Queue`/`Deque`.
 - **`Map` не наследует `Collection`:** коллекция — набор отдельных элементов (`add(E)`), а map — набор пар ключ–значение (`put(K, V)`). Методы `Collection` для пар не подходят. Зато map даёт представления-коллекции: `keySet()`, `values()`, `entrySet()`.
@@ -310,7 +310,7 @@ public record Money(BigDecimal amount, String currency) {
 | `TreeSet` / `TreeMap` | O(log n) | отсортированный |
 | `PriorityQueue` | `offer`/`poll` O(log n), `peek` O(1) | по приоритету (куча) |
 
-![](img/algoryth-difficulty1.jpg)
+![](img/complexity-table.svg)
 
 ## 3. `ArrayList` vs `LinkedList`
 
@@ -997,7 +997,7 @@ Runnable consumer = () -> {
 - **Подсчёт ссылок (reference counting)** — у объекта счётчик ссылок, 0 — мусор. Не умеет циклы (A ссылается на B, B на A, а снаружи никто). **В JVM не используется.**
 - **Трассировка (tracing / reachability)** — используется в JVM: от **GC roots** обходятся все достижимые по ссылкам объекты и помечаются живыми. Всё недостижимое — мусор, даже если объекты ссылаются друг на друга по кругу.
 
-![](img/garbage-collection1.png)
+![](img/garbage-collection.svg)
 
 ### GC roots — откуда начинается обход
 
@@ -2730,7 +2730,7 @@ A зависит от B, B от A. Через конструкторы тако�
 
 ## 5. Жизненный цикл бина
 
-![](img/bean-lifecycle.png)
+![](img/bean-lifecycle.svg)
 
 1. Прочитаны все `BeanDefinition`. Отработали **`BeanFactoryPostProcessor`** — могут изменить определения (например, подставить `${...}` из настроек — `PropertySourcesPlaceholderConfigurer`).
 2. **Создание объекта** (вызов конструктора — здесь же внедряются зависимости конструктора).
@@ -3363,7 +3363,7 @@ HTTP — протокол **без состояния** (stateless): кажды�
 
 ## Transactional outbox
 
-![](img/transactional-outbox.png)
+![](img/transactional-outbox.svg)
 
 **Проблема (dual write):** нужно сохранить заказ в БД **и** отправить событие в Kafka.
 

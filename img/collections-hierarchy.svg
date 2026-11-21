@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/></marker></defs>
+<rect width="100%" height="100%" rx="10" fill="#0d1117"/>
+<path d="M 110 106.0 L 110 85.0 L 330 85.0 L 330 64.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 330 106.0 L 330 64.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 590 106.0 L 590 85.0 L 330 85.0 L 330 64.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 80.0 205 L 64.0 205 L 64.0 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 80.0 265 L 64.0 265 L 64.0 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 80.0 325 L 64.0 325 L 64.0 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 150 386.0 L 150 344.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 400 171.0 L 400 160 L 360 160 L 330 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 330 246.0 L 300 246 L 300 144 L 330 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 330 326.0 L 330 284.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 660 171.0 L 660 160 L 620 160 L 590 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 660 246.0 L 660 209.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 590 326.0 L 560 326 L 560 144 L 590 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 590 396.0 L 590 364.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 590 466.0 L 590 434.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 830 106.0 L 830 85.0 L 960 85.0 L 960 64.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 830 186.0 L 830 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 1040 106.0 L 1040 85.0 L 960 85.0 L 960 64.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 1040 186.0 L 1040 144.0" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 1040 266.0 L 1040 224.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M 930 326.0 L 930 85 L 960 85 L 960 64.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<rect x="260.0" y="26.0" width="140" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="330" y="45.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Collection</text>
+<rect x="50.0" y="106.0" width="120" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="110" y="125.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">List</text>
+<rect x="270.0" y="106.0" width="120" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="330" y="125.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Queue</text>
+<rect x="530.0" y="106.0" width="120" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="590" y="125.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Set</text>
+<rect x="80.0" y="186.0" width="140" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="150" y="205.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">ArrayList</text>
+<rect x="80.0" y="246.0" width="140" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="150" y="265.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">LinkedList</text>
+<rect x="80.0" y="306.0" width="140" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="150" y="325.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Vector</text>
+<rect x="80.0" y="386.0" width="140" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="150" y="405.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Stack</text>
+<rect x="325.0" y="171.0" width="150" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="400" y="190.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">PriorityQueue</text>
+<rect x="270.0" y="246.0" width="120" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="330" y="265.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Deque</text>
+<rect x="260.0" y="326.0" width="140" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="330" y="345.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">ArrayDeque</text>
+<rect x="590.0" y="171.0" width="140" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="660" y="190.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">HashSet</text>
+<rect x="585.0" y="246.0" width="150" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="660" y="265.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">LinkedHashSet</text>
+<rect x="525.0" y="326.0" width="130" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="590" y="345.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">SortedSet</text>
+<rect x="520.0" y="396.0" width="140" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="590" y="415.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">NavigableSet</text>
+<rect x="525.0" y="466.0" width="130" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="590" y="485.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">TreeSet</text>
+<rect x="900.0" y="26.0" width="120" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="960" y="45.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">Map</text>
+<rect x="765.0" y="106.0" width="130" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="830" y="125.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">HashMap</text>
+<rect x="755.0" y="186.0" width="150" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="830" y="205.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">LinkedHashMap</text>
+<rect x="975.0" y="106.0" width="130" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="1040" y="125.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">SortedMap</text>
+<rect x="970.0" y="186.0" width="140" height="38" rx="6" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="1040" y="205.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">NavigableMap</text>
+<rect x="980.0" y="266.0" width="120" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="1040" y="285.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">TreeMap</text>
+<rect x="840.0" y="326.0" width="180" height="38" rx="6" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="930" y="345.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">ConcurrentHashMap</text>
+<path d="M 220 265 L 270 265" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<rect x="720.0" y="420.0" width="36" height="20" rx="4" fill="#1b4332" stroke="#3fb950" stroke-width="1.6"/>
+<text x="768" y="430.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">интерфейс</text>
+<rect x="720.0" y="450.0" width="36" height="20" rx="4" fill="#5a3510" stroke="#f0883e" stroke-width="1.6"/>
+<text x="768" y="460.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">класс</text>
+<path d="M 720 490 L 756 490" fill="none" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="768" y="490.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">extends — наследует</text>
+<path d="M 720 520 L 756 520" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<text x="768" y="520.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">implements — реализует</text>
+</svg>

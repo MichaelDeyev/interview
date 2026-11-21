@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1206" height="618" viewBox="0 0 1206 618">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/></marker></defs>
+<rect width="100%" height="100%" rx="10" fill="#0d1117"/>
+<rect x="20" y="20" width="230" height="88" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="135.0" y="64.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="central">Структура данных</text>
+<rect x="250" y="20" width="416" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="458.0" y="42.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="central">Время — в среднем</text>
+<rect x="250" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">Индексация</text>
+<rect x="354" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">Поиск</text>
+<rect x="458" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">Вставка</text>
+<rect x="562" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">Удаление</text>
+<rect x="666" y="20" width="416" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="874.0" y="42.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="central">Время — в худшем</text>
+<rect x="666" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">Индексация</text>
+<rect x="770" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">Поиск</text>
+<rect x="874" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">Вставка</text>
+<rect x="978" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">Удаление</text>
+<rect x="1082" y="20" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="42.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" dominant-baseline="central">Память</text>
+<rect x="1082" y="64" width="104" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="86.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" dominant-baseline="central">в худшем</text>
+<rect x="20" y="108" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="130.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Обычный массив</text>
+<rect x="250" y="108" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="130.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="354" y="108" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="130.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="458" y="108" width="104" height="44" rx="0" fill="#21262d" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="130.0" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">—</text>
+<rect x="562" y="108" width="104" height="44" rx="0" fill="#21262d" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="130.0" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">—</text>
+<rect x="666" y="108" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="130.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="770" y="108" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="130.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="874" y="108" width="104" height="44" rx="0" fill="#21262d" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="130.0" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">—</text>
+<rect x="978" y="108" width="104" height="44" rx="0" fill="#21262d" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="130.0" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">—</text>
+<rect x="1082" y="108" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="130.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="20" y="152" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="174.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Динамический массив</text>
+<rect x="250" y="152" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="174.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="354" y="152" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="174.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="458" y="152" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="174.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="562" y="152" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="174.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="666" y="152" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="174.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="770" y="152" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="174.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="874" y="152" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="174.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="978" y="152" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="174.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="1082" y="152" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="174.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="20" y="196" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="218.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Односвязный список</text>
+<rect x="250" y="196" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="218.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="354" y="196" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="218.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="458" y="196" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="218.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="562" y="196" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="218.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="666" y="196" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="218.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="770" y="196" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="218.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="874" y="196" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="218.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="978" y="196" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="218.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="1082" y="196" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="218.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="20" y="240" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="262.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Двусвязный список</text>
+<rect x="250" y="240" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="262.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="354" y="240" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="262.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="458" y="240" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="262.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="562" y="240" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="262.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="666" y="240" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="262.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="770" y="240" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="262.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="874" y="240" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="262.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="978" y="240" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="262.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="1082" y="240" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="262.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="20" y="284" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="306.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Список с пропусками</text>
+<rect x="250" y="284" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="306.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="354" y="284" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="306.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="458" y="284" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="306.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="562" y="284" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="306.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="666" y="284" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="306.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="770" y="284" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="306.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="874" y="284" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="306.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="978" y="284" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="306.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="1082" y="284" width="104" height="44" rx="0" fill="#6e1a2c" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="306.0" fill="#ff8fa8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n log n)</text>
+<rect x="20" y="328" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="350.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Хеш-таблица</text>
+<rect x="250" y="328" width="104" height="44" rx="0" fill="#21262d" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="350.0" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">—</text>
+<rect x="354" y="328" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="350.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="458" y="328" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="350.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="562" y="328" width="104" height="44" rx="0" fill="#1b4332" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="350.0" fill="#7ee2a8" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(1)</text>
+<rect x="666" y="328" width="104" height="44" rx="0" fill="#21262d" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="350.0" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">—</text>
+<rect x="770" y="328" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="350.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="874" y="328" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="350.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="978" y="328" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="350.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="1082" y="328" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="350.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="20" y="372" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="394.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Бинарное дерево поиска</text>
+<rect x="250" y="372" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="394.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="354" y="372" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="394.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="458" y="372" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="394.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="562" y="372" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="394.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="666" y="372" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="394.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="770" y="372" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="394.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="874" y="372" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="394.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="978" y="372" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="394.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="1082" y="372" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="394.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="20" y="416" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="438.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Декартово дерево</text>
+<rect x="250" y="416" width="104" height="44" rx="0" fill="#21262d" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="438.0" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">—</text>
+<rect x="354" y="416" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="438.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="458" y="416" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="438.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="562" y="416" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="438.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="666" y="416" width="104" height="44" rx="0" fill="#21262d" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="438.0" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">—</text>
+<rect x="770" y="416" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="438.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="874" y="416" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="438.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="978" y="416" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="438.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="1082" y="416" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="438.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="20" y="460" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="482.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">B-дерево</text>
+<rect x="250" y="460" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="482.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="354" y="460" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="482.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="458" y="460" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="482.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="562" y="460" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="482.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="666" y="460" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="482.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="770" y="460" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="482.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="874" y="460" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="482.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="978" y="460" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="482.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="1082" y="460" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="482.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<rect x="20" y="504" width="230" height="44" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1.6"/>
+<text x="32" y="526.0" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" dominant-baseline="central">Красно-чёрное дерево</text>
+<rect x="250" y="504" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="302.0" y="526.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="354" y="504" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="406.0" y="526.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="458" y="504" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="510.0" y="526.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="562" y="504" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="614.0" y="526.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="666" y="504" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="718.0" y="526.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="770" y="504" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="822.0" y="526.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="874" y="504" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="926.0" y="526.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="978" y="504" width="104" height="44" rx="0" fill="#21412a" stroke="#30363d" stroke-width="1.6"/>
+<text x="1030.0" y="526.0" fill="#b4e08a" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(log n)</text>
+<rect x="1082" y="504" width="104" height="44" rx="0" fill="#5c1a1b" stroke="#30363d" stroke-width="1.6"/>
+<text x="1134.0" y="526.0" fill="#ffa198" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="normal" text-anchor="middle" dominant-baseline="central">O(n)</text>
+<text x="20" y="578.0" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" dominant-baseline="central">Вставка/удаление O(1) у списков — когда узел уже найден; поиск места — O(n). Хеш-таблица O(n) в худшем — все ключи в одном бакете (в Java 8+ HashMap — O(log n)).</text>
+</svg>
