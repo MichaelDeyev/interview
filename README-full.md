@@ -1984,6 +1984,8 @@ ps.setString(1, name);
 
 Все примеры ниже — на этих таблицах. Её стоит один раз создать у себя (`docker run -d --name pg -e POSTGRES_PASSWORD=pg -p 5433:5432 postgres`, подключение: localhost:5433, пользователь `postgres`, пароль `pg`; порт 5433 — чтобы не конфликтовать с локально установленным PostgreSQL) и прогонять запросы руками — так SQL запоминается в разы быстрее.
 
+**Готовый скрипт с таблицами и данными:** [sql/seed.sql](sql/seed.sql) — создаёт все таблицы (включая `accounts` и `t` для задач 11 и 13) и заполняет их данными с подвохами под каждую задачу. Запуск: `docker exec -i pg psql -U postgres < sql/seed.sql` или выполнить файл в IDE. Повторный запуск пересоздаёт таблицы.
+
 ```sql
 create table departments (
     id   bigint primary key,
