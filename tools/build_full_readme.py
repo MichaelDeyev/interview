@@ -32,6 +32,7 @@ ORDER = [
     "testing.md",
     "devops.md",
     "system-design.md",
+    "ai.md",
     "behavioral.md",
 ]
 

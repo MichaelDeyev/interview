@@ -1,6 +1,6 @@
 # Подготовка к собеседованию: Java / Kotlin backend
 
-База знаний для подготовки к техническим собеседованиям на позицию Senior Java/Kotlin backend-разработчика: Java, Kotlin, Spring, базы данных, Kafka, многопоточность, микросервисы. Актуализировано в ноябре 2026: Java 21/25, Kotlin 2, Spring Boot 3/4, Kafka 4, PostgreSQL 18.
+База знаний для подготовки к техническим собеседованиям на позицию Senior Java/Kotlin backend-разработчика: Java, Kotlin, Spring, базы данных, Kafka, многопоточность, микросервисы. Актуализировано в ноябре 2026: Java 21/25, Kotlin 2, Spring Boot 3/4, Kafka 4, PostgreSQL 18, AI в backend (RAG, агенты).
 
 **Всё одним файлом:** [README-full.md](README-full.md) — все темы подряд в порядке исходного README. Он собирается из тематических файлов скриптом: правки вносить в тематические файлы, затем выполнить `python tools/build_full_readme.py` из корня репозитория. Схемы в `img/` — SVG с тёмным фоном, рисуются скриптом `python tools/build_images.py` (правки — в описании схем в скрипте).
 
@@ -27,6 +27,7 @@
 | [Сборка и DevOps](devops.md) | Maven/Gradle, Git, Docker, Kubernetes, CI/CD |
 | [Алгоритмы](algorithms.md) | Big O, сортировки, приёмы, 12 задач на live coding |
 | [System design](system-design.md) | план ответа, сервис уведомлений, переводы, rate limiter |
+| [**AI в backend**](ai.md) | LLM и токены, эмбеддинги и pgvector, RAG, tool calling, агенты и harness, MCP, Spring AI, evals, prompt injection |
 | [Нетехнические вопросы](behavioral.md) | рассказ о себе, STAR, вопросы техлиду, вопросы работодателю |
 | [Вопросы для интервьюера](my-questions/my-interview-questions.md) | набор вопросов для проведения собеседования с кандидатом |
 
@@ -101,6 +102,15 @@
 - Transactional outbox, Saga, circuit breaker? → [microservices](microservices.md#transactional-outbox)
 - CAP? → [microservices](microservices.md#cap-и-pacelc)
 - Какие паттерны знаешь и использовал? Антипаттерны? → [patterns](patterns.md#3-основные-паттерны--суть-и-где-встречаются)
+
+### AI
+- Что такое RAG, из каких шагов состоит, где чаще всего ломается? → [ai](ai.md#4-rag--retrieval-augmented-generation)
+- Эмбеддинги, векторный поиск, HNSW vs IVFFlat, зачем гибридный поиск? → [ai](ai.md#3-эмбеддинги-и-векторный-поиск)
+- Как работает tool calling, кто выполняет функцию? → [ai](ai.md#6-tool-calling-function-calling)
+- Что такое агент и harness, workflow или агент? → [ai](ai.md#7-агенты-и-harness)
+- Что такое MCP? → [ai](ai.md#8-mcp--model-context-protocol)
+- Как тестировать LLM-фичу, что такое evals? → [ai](ai.md#10-качество-как-проверять-llm-систему)
+- Prompt injection и защита? → [ai](ai.md#prompt-injection--главная-уязвимость)
 
 ### Сети
 - Идемпотентные методы HTTP? GET vs POST? → [web](web.md#2-http-методы)
