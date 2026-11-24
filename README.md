@@ -25,7 +25,7 @@
 | [Паттерны и принципы](patterns.md) | SOLID, GoF, Strategy и Chain of Responsibility на Spring, архитектура, антипаттерны |
 | [Тестирование](testing.md) | пирамида, JUnit 5, Mockito, Spring-тесты, Testcontainers, нагрузочное тестирование |
 | [Сборка и DevOps](devops.md) | Maven/Gradle, Git, Docker, Kubernetes, CI/CD |
-| [Алгоритмы](algorithms.md) | Big O, сортировки, приёмы, 12 задач на live coding |
+| [**Алгоритмы**](algorithms.md) | Big O, от лобового решения к оптимальному, таблицы выбора приёма, 16 приёмов с шаблонами на Java, протокол live coding и шпаргалка, секция в Яндексе, план на неделю, 12 задач |
 | [System design](system-design.md) | план ответа, сервис уведомлений, переводы, rate limiter |
 | [**AI в backend**](ai.md) | LLM и токены, эмбеддинги и pgvector, RAG, tool calling, агенты и harness, MCP, Spring AI, evals, prompt injection |
 | [Нетехнические вопросы](behavioral.md) | рассказ о себе, STAR, вопросы техлиду, вопросы работодателю |
@@ -68,6 +68,18 @@
 - Как работает `ThreadPoolExecutor`, чем опасен `newFixedThreadPool`? → [concurrency](concurrency.md#8-executor-пулы-потоков-future)
 - Виртуальные потоки: когда помогают, что такое pinning? → [concurrency](concurrency.md#10-виртуальные-потоки-java-21)
 - Deadlock: как возникает, как избежать? → [concurrency](concurrency.md#11-deadlock-livelock-starvation-race-condition)
+
+### Алгоритмы
+- Как прийти от лобового решения к оптимальному? Какие три вопроса задать внутреннему циклу? → [algorithms](algorithms.md#3-от-лобового-решения-к-оптимальному)
+- n = 10⁵ — какая сложность нужна? А n = 20? → [algorithms](algorithms.md#размер-входа--нужная-сложность)
+- «Отсортирован», «непрерывный подмассив», «top k», «следующий больший», «минимальное X, при котором…» — какой приём? → [algorithms](algorithms.md#признак-в-условии--приём)
+- Почему для «подмассивов с суммой k» не подходит окно, если есть отрицательные числа? → [algorithms](algorithms.md#54-префиксные-суммы--hashmap)
+- Бинарный поиск: как не зациклиться, что такое бинпоиск по ответу? → [algorithms](algorithms.md#56-бинарный-поиск-в-том-числе-по-ответу)
+- BFS или DFS? Почему кратчайший путь в сетке — только BFS? → [algorithms](algorithms.md#59-сетка-и-граф-bfs-и-dfs)
+- Как найти k самых частых за O(n log k)? Чем плох компаратор `(a, b) -> a - b`? → [algorithms](algorithms.md#510-куча-top-k)
+- Сложность `TreeMap.floorKey`, `PriorityQueue.remove(Object)`, `ArrayList.remove(0)`, `+=` для строки в цикле? → [algorithms](algorithms.md#сложность-методов-стандартной-библиотеки)
+- Шаги live coding; как проверить код без запуска? → [algorithms](algorithms.md#6-протокол-live-coding-и-java-шпаргалка)
+- Как проходит алгоритмическая секция в Яндексе и что там оценивают? → [algorithms](algorithms.md#7-алгоритмическая-секция-в-яндексе)
 
 ### Spring и Hibernate
 - Способы создать бин и внедрить зависимость, какой лучше? → [spring](spring.md#3-внедрение-зависимостей)
