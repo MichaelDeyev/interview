@@ -17,7 +17,7 @@
 | [Kotlin](kotlin.md) | null-безопасность, data/sealed-классы, расширения, scope-функции, корутины и Flow, Kotlin + Spring/JPA |
 | [Spring и Spring Boot](spring.md) | IoC/DI, бины и жизненный цикл, прокси и AOP, `@Transactional`, автоконфигурация, MVC, WebFlux, Security |
 | [JPA, Hibernate, Spring Data](hibernate.md) | состояния сущности, dirty checking, N+1, LazyInitializationException, кэши, batch, блокировки |
-| [**SQL**](sql.md) | порядок выполнения, NULL, JOIN, группировка, оконные функции, 13 задач с решениями |
+| [**SQL**](sql.md) | порядок выполнения, NULL, JOIN, группировка, оконные функции, 13 задач с решениями, блиц по PostgreSQL (блокировки, партиции, bloat) |
 | [**Базы данных (PostgreSQL)**](databases.md) | ACID, аномалии и уровни изоляции, MVCC, индексы, EXPLAIN, блокировки, пагинация, масштабирование |
 | [**Kafka**](kafka.md) | партиции, репликация, продюсер и acks, consumer group, гарантии доставки, DLT, Spring Kafka, вопросы |
 | [Микросервисы](microservices.md) | CAP, синхронное и асинхронное общение, Resilience4j, outbox, saga, идемпотентность, кэш, наблюдаемость |
@@ -103,6 +103,7 @@
 - Индексы: когда применяем, когда избегаем, почему индекс не используется? → [databases](databases.md#5-индексы)
 - Оптимистичная и пессимистичная блокировка? → [databases](databases.md#lost-update-в-read-committed--частый-вопрос)
 - Пагинация offset и keyset? → [databases](databases.md#8-пагинация-offset-vs-keyset-seek)
+- Deadlock при встречных переводах, lost update, запрос без ключа партиционирования, bloat после DELETE? → [sql](sql.md#12-блиц-postgresql-на-собеседовании)
 - Партиционирование, шардирование, репликация? → [databases](databases.md#9-масштабирование)
 
 ### Kafka и микросервисы
