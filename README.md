@@ -24,7 +24,7 @@
 | [Сети и безопасность](web.md) | HTTP, методы и коды, REST, TLS, cookies и сессии, JWT, OAuth2, OWASP |
 | [Паттерны и принципы](patterns.md) | SOLID, GoF, Strategy и Chain of Responsibility на Spring, архитектура, антипаттерны |
 | [Тестирование](testing.md) | пирамида, JUnit 5, Mockito, Spring-тесты, Testcontainers, нагрузочное тестирование |
-| [Сборка и DevOps](devops.md) | Maven/Gradle, Git, Docker, Kubernetes, CI/CD |
+| [Сборка и DevOps](devops.md) | Maven/Gradle, Git, Docker, Kubernetes, CI/CD, Istio, блиц по Kubernetes и Istio |
 | [**Алгоритмы**](algorithms.md) | Big O, от лобового решения к оптимальному, таблицы выбора приёма, 16 приёмов с шаблонами на Java, протокол live coding и шпаргалка, секция в Яндексе, план на неделю, 12 задач |
 | [System design](system-design.md) | план ответа, сервис уведомлений, переводы, rate limiter |
 | [**AI в backend**](ai.md) | LLM и токены, эмбеддинги и pgvector, RAG, tool calling, агенты и harness, MCP, Spring AI, evals, prompt injection |
@@ -105,6 +105,7 @@
 - Пагинация offset и keyset? → [databases](databases.md#8-пагинация-offset-vs-keyset-seek)
 - Deadlock при встречных переводах, lost update, запрос без ключа партиционирования, bloat после DELETE? → [sql](sql.md#12-блиц-postgresql-на-собеседовании)
 - acks=all при min.insync.replicas=1, повторная доставка платежа, exactly once за минуту? → [kafka](kafka.md#13-блиц-надёжность-и-exactly-once)
+- Пробы при медленном старте, что такое Service и как запрос находит под, зачем Istio? → [devops](devops.md#блиц-kubernetes-и-istio)
 - Партиционирование, шардирование, репликация? → [databases](databases.md#9-масштабирование)
 
 ### Kafka и микросервисы
