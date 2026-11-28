@@ -19,7 +19,7 @@
 | [JPA, Hibernate, Spring Data](hibernate.md) | состояния сущности, dirty checking, N+1, LazyInitializationException, кэши, batch, блокировки |
 | [**SQL**](sql.md) | порядок выполнения, NULL, JOIN, группировка, оконные функции, 13 задач с решениями, блиц по PostgreSQL (блокировки, партиции, bloat) |
 | [**Базы данных (PostgreSQL)**](databases.md) | ACID, аномалии и уровни изоляции, MVCC, индексы, EXPLAIN, блокировки, пагинация, масштабирование |
-| [**Kafka**](kafka.md) | партиции, репликация, продюсер и acks, consumer group, гарантии доставки, DLT, Spring Kafka, вопросы |
+| [**Kafka**](kafka.md) | партиции, репликация, продюсер и acks, consumer group, гарантии доставки, DLT, Spring Kafka, вопросы, блиц по надёжности и exactly once |
 | [Микросервисы](microservices.md) | CAP, синхронное и асинхронное общение, Resilience4j, outbox, saga, идемпотентность, кэш, наблюдаемость |
 | [Сети и безопасность](web.md) | HTTP, методы и коды, REST, TLS, cookies и сессии, JWT, OAuth2, OWASP |
 | [Паттерны и принципы](patterns.md) | SOLID, GoF, Strategy и Chain of Responsibility на Spring, архитектура, антипаттерны |
@@ -104,6 +104,7 @@
 - Оптимистичная и пессимистичная блокировка? → [databases](databases.md#lost-update-в-read-committed--частый-вопрос)
 - Пагинация offset и keyset? → [databases](databases.md#8-пагинация-offset-vs-keyset-seek)
 - Deadlock при встречных переводах, lost update, запрос без ключа партиционирования, bloat после DELETE? → [sql](sql.md#12-блиц-postgresql-на-собеседовании)
+- acks=all при min.insync.replicas=1, повторная доставка платежа, exactly once за минуту? → [kafka](kafka.md#13-блиц-надёжность-и-exactly-once)
 - Партиционирование, шардирование, репликация? → [databases](databases.md#9-масштабирование)
 
 ### Kafka и микросервисы
